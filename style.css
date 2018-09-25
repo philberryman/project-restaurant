@@ -18,12 +18,15 @@ body {
 }
 
 .menuList {
-  background: "images/burger.jpg";
+  background: url("images/burger.jpg");
+  background-size: contain;
   color: white;
 }
 
 .locationsList {
-  background: "images/world.png";
+  background: url("images/world.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 @media (min-width: 768px) {
   .content {

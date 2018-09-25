@@ -1,6 +1,7 @@
 import React from "react";
 import Menu from "./Menu";
 import Locations from "./Locations";
+import Map from "./Map";
 
 const menu = [
   {
@@ -63,6 +64,9 @@ class App extends React.Component {
             <ul className="locationsList">
               <Locations locations={locations} />
             </ul>
+          </div>
+          <div className="map">
+            <Map address={locations} />
           </div>
         </main>
       </div>
