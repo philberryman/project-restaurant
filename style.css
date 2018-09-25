@@ -1,0 +1,35 @@
+* {
+  box-sizing: inherit;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background: red;
+  justify-content: center;
+}
+
+body {
+  box-sizing: border-box;
+  background: "images/bae.jpg";
+  font-family: "M PLUS 1p", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.menuList {
+  background: "images/burger.jpg";
+  color: white;
+}
+
+.locationsList {
+  background: "images/world.png";
+}
+@media (min-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1440px) {
+}
